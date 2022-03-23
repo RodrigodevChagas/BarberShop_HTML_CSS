@@ -274,6 +274,10 @@ body{
     width: 940px;
     margin: 0 auto;
 }
+.itens{
+    margin: 0 0 1em 0.5e;
+
+}
 .itens:first-child{
     font-weight: bold;
 }
