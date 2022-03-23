@@ -3,34 +3,78 @@
 <html lang = "pt-br">
     
     <head>
-        <link rel= "stylesheet" href= "style.css">
-        <meta charset= "UTF-8">
-        <title >Lek's Barber</title>
+        <meta charset="UTF-8">
+        <title>Lek's Barber</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+         rel="stylesheet">
+</head>
     </head>
+
     <body>
-        <img id = "Foto" src="RoyalRumbleGrupo.jpg">
-        <div class="principal">
-            <h1>Sobre a Lek's barber</h1>
-            <p>Localizada no coração da cidade a Lek's barber traz para o mercado o que há de melhor para o seu cabelo e barba. 
-                Fundada em 2019, a <b>Lek's barber</b> já é destaque na cidade e conquista novos clientes a cada dia.</p>
-            <p id="missao">
-            <em> Nossa missão é: <b>"Proporcionar auto-estima e qualidade de vida aos clientes".</b></em>
-            </p>
-        </div>
-        <p style = "font-size: 20px;">
-            Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-            O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
-        </p>
-        <div class= "beneficios">
-            <h2>Beneficios</h2>
-            <ul>
-                <li class= "itens">Atendimento</li>
-                <li class= "itens">Espaço diferenciado</li>
-                <li class= "itens">Atendimento</li>
-                <li class= "itens">Profissionais qualificados</li>
-            </ul>
-            <img src="beneficios.jpg" class="imagembeneficios">
-        </div>
+        <header class = "cabecalho">
+            <div class="caixa">
+                <div class="menuBtn">MENU</div>
+                    <nav class = "navegacao">
+                        <img src="logo.png" alt="Logo da Lek's Barbar">
+                        <ul>
+                            <li><a href="Index.html">Home</a></li>
+                            <li><a href= "produtos.html">Produtos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+            </div>
+            <img class = "banner" src="banner.jpg">
+        </header>
+
+        <main>
+            <section class="principal">
+               <div class="principal-conteudo">
+                   <h2 class="titulo-principal">Sobre a Lek's barber</h2>
+                   <img class = "utensilios" src="utensilios.jpg" alt="utensilios de um barbeiro">
+                   <p>Localizada no coração da cidade a Lek's barber traz para o mercado o que há de melhor para o seu cabelo e barba. 
+                       Fundada em 2019, a <b>Lek's barber</b> já é destaque na cidade e conquista novos clientes a cada dia.
+                   </p>
+                   <p>
+                   <em> Nossa missão é: <b>"Proporcionar auto-estima e qualidade de vida aos clientes".</b></em>
+                   </p>
+                   <p>
+                       Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+                       O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
+                   </p>
+               </div>
+            </section>
+            <section class="externos">
+                <h3 class="titulo-principal">Nosso estabelecimento</h3>
+                <p>Nosso estabelecimento é o estádio do Vasco, apenas.</p>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.6019040204455!2d-43.230231385508795!3d-22.891159843067484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997eea386659df%3A0x915e7bfd2cc5d456!2sS%C3%A3o%20Janu%C3%A1rio%20Stadium!5e0!3m2!1sen!2sbr!4v1647707822580!5m2!1sen!2sbr" 
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </section>
+            <section class="beneficios">
+                <h3 class="titulo-principal">Beneficios</h3>
+                <div class="conteudo-beneficios">
+                    <ul class="lista-beneficios">
+                        <li class= "itens">Atendimento</li>
+                        <li class= "itens">Espaço diferenciado</li>
+                        <li class= "itens">Atendimento</li>
+                        <li class= "itens">Profissionais qualificados</li>
+                    </ul><img src="beneficios.jpg" class="imagem-beneficios">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+
         </body>
+        <footer class = "rodape">
+            <img src="logo-branco.png" alt="Logo da Lek's Barbar">
+            <p class = "copyright">&copy; copyright Lek's Barber</p>
+        </footer>
 
 </html>
